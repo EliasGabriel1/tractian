@@ -14,7 +14,6 @@ export const Rodape = styled.footer`
         padding-bottom: 5px;
     `};
     p{
-        width:100vw;
         display:flex;
         justify-content:center;
     }
