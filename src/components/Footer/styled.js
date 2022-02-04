@@ -8,14 +8,12 @@ const customMedia = generateMedia({
   });
 
 export const Rodape = styled.footer`
+  background: rgb(29,74,201);
+  background: linear-gradient(360deg, rgba(29,74,201,1) 75%, rgba(255,255,255,1) 75%);
   color:#000;
   text-align:center;
+  padding-bottom: 60px;
     ${customMedia.lessThan("mobile")`
-        padding-bottom: 5px;
+        padding: 0 20px 10px 20px;
     `};
-    p{
-        display:flex;
-        justify-content:center;
-    }
-
 `;

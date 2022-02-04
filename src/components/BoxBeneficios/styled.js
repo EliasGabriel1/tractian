@@ -12,7 +12,7 @@ export const Container = styled.div`
     align-items: center;
     max-width: 1250px;
     margin: 0 auto;
-    min-height: 205px;
+    min-height: 500px;
     background: #FFFFFF;
     border-radius: 10px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);

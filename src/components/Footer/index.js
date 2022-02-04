@@ -1,12 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {Rodape} from "./styled"
+import FormFooter from '../FormFooter';
+import ContentFooter from '../ContentFooter';
 
-export default class Footer extends Component {
-    render() {
-        return (
-            <Rodape>
-                <p>Copyright © 2021 Elias Gabriel | Dev Front End</p>
-            </Rodape>
-        )
-    }
+
+function Footer() {
+  return (
+    <Rodape>
+        <FormFooter/>
+        <ContentFooter/>
+    </Rodape>
+  );
 }
+
+export default Footer;
